@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "leet-code-answers"
+version = "0.1.0"
+description = ""
+authors = ["sota <souta0829win7@yahoo.co.jp>"]
+readme = "README.md"
+packages = [{include = "leet_code_answers"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
