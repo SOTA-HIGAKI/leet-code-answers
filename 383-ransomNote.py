@@ -7,3 +7,6 @@ class Solution:
             else:
                 return False
         return True
+
+# memo
+# magazine can hashed

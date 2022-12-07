@@ -11,7 +11,7 @@ class ListNode:
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         revHead = ListNode()
-        
+
         while head is not None and head.val != None:
             revHead = self.reverse_iteration(head.val, revHead)
             head = head.next
@@ -23,3 +23,6 @@ class Solution:
         revHead.val = headVal
         temp.next = revHead
         return temp
+
+# memo
+# 繰り返しnextの方向を逆方向にする*n

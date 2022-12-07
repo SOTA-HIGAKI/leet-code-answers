@@ -19,6 +19,7 @@ combinations = {
     "CM": 900,
 }
 
+
 class Solution:
     def romanToInt(self, s: str) -> int:
         sum = 0
@@ -32,3 +33,7 @@ class Solution:
                 sum += characters[char]
 
         return sum
+
+
+# memo
+# 必ず数字の大小が逆だったらsubtractするので…

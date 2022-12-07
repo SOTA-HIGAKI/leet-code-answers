@@ -28,3 +28,6 @@ class Solution:
             else:
                 nodes.pop(0)
                 nodes.pop()
+
+# memo
+# fast slow を用いて中央を判別したのち、ひっくり返す
