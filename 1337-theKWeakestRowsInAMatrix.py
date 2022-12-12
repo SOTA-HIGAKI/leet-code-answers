@@ -10,10 +10,8 @@ class Solution:
         sorted_rows = dict(sorted(soldiers.items(), key=lambda x: x[1]))
         return list(sorted_rows.keys())[:k]
 
-
 # memo
 # binary search (二分探索)
-
     def binarySearch(
         self,
         mat: list[list[int]],
@@ -34,3 +32,4 @@ class Solution:
 
 # priority queue: this is heapqueue, heapq
 # heap is suitable structure for estimating minimum or maximum number
+# heap[0] is the minimum number, so if you want to remove maximum one, you should multiply by -1 and then reverse the order
